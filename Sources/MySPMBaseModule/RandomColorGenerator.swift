@@ -11,4 +11,8 @@ public class RandomColorGenerator {
         )
     }
     
+    public static func getRedImage() -> UIImage {
+        return UIImage(ciImage: .red)
+    }
+    
 }
